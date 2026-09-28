@@ -99,11 +99,11 @@ SOFTWARE.
 The following bundled or referenced assets retain their own licenses and are **not**
 covered by the MIT / CC BY 4.0 licenses:
 
-- **Satoshi font** (`src/app/assets/fonts/Satoshi/`) — © Indian Type Foundry,
-  distributed under the [ITF Free Font License](https://www.fontshare.com/licenses/itf-ffl).
-  Free for commercial use, but note the FFL restricts self-hosting/redistribution of
-  the font files; the files are currently bundled in this repo. **To review:** load
-  Satoshi via the Fontshare API/CDN, or replace it with a self-hostable OFL/Apache font.
+- **Fonts:** the display/body font is **Manrope** (SIL Open Font License) and the mono
+  font is **Roboto Mono** (Apache License 2.0), both loaded via `next/font/google`
+  (self-hosted at build time). *(This project previously bundled the Satoshi font under
+  the ITF Free Font License; it was removed in favour of an OFL font to avoid
+  self-hosting/redistribution restrictions.)*
 - **Logos and marks** in `public/images/` (University of Bologna, Fondazione Carisbo,
   DHLab, etc.) are the property of their respective owners and are used for
   attribution/identification only.

@@ -1,21 +1,13 @@
 // src/app/fonts.js
-import { Roboto_Mono } from 'next/font/google'
-import localFont from 'next/font/local'
+import { Roboto_Mono, Manrope } from 'next/font/google'
 
-export const satoshi = localFont({
-  src: [
-    {
-      // PERCORSO CORRETTO: Relativo, partendo dalla stessa cartella (app)
-      path: './assets/fonts/Satoshi/Satoshi-Variable.woff2',
-      style: 'normal',
-    },
-    {
-      // Corretto anche per la versione Italic
-      path: './assets/fonts/Satoshi/Satoshi-VariableItalic.woff2',
-      style: 'italic',
-    },
-  ],
-  weight: '300 900',
+// Display/body font. Manrope (SIL Open Font License) replaces Satoshi so the fonts
+// are self-hosted at build time with no licensing ambiguity. The export name and CSS
+// variable (--font-satoshi) are intentionally kept so layout.js and globals.css need
+// no changes.
+export const satoshi = Manrope({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '700', '800'],
   display: 'swap',
   variable: '--font-satoshi',
 })

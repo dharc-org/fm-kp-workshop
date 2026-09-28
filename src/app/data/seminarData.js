@@ -371,10 +371,8 @@ export const seminarData = {
         ],
       },
       funding: [
-        { text: "L'evento è finanziato da " },
-        { text: "Fondazione Carisbo", styles: ["font-bold"] },
-        { text: " attraverso il bando " },
-        { text: "Cultura e Rigenerazione 2025", href: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/" },
+        { text: "L'evento è patrocinato da " },
+        { text: "OSCARS", styles: ["font-bold"], href: "https://www.oscars-project.eu/" }
         { text: " e da " },
         { text: "Alma Mater Studiorum - Università di Bologna", href: "https://ficlit.unibo.it/it" },
         { text: "." },
