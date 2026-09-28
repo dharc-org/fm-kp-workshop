@@ -81,16 +81,19 @@ const SeminarContent = () => {
 
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-background pt-16 pb-16">
+        {/* ===== INIZIO MODIFICA ===== */}
+        {/* Hero background image + gradient overlay removed for new event — uncomment the whole block to restore */}
+        {/*
         <div className="absolute inset-0">
-          {/* ===== INIZIO MODIFICA ===== */}
           <img
             src={getImagePath("/images/header_bg.png")}
             alt="Abstract background image for the seminar"
             className="absolute inset-0 w-full h-full object-cover opacity-90"
           />
-          {/* ===== FINE MODIFICA ===== */}
           <div className="absolute inset-0 bg-gradient-to-br from-background via-background/90 to-background/50" />
         </div>
+        */}
+        {/* ===== FINE MODIFICA ===== */}
 
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">

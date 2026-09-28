@@ -1,44 +1,25 @@
 export const seminarData = {
   en: {
-    title: "Building Knowledge Landscapes Across the Digital Humanities",
+    title: "Oral Data, FAIR-ness, and DH:",
     subtitle: [
-      { text: "/DH.arc", styles: ["italic", "font-bold"] },
-      { text: " and " },
-      { text: "DHLab", styles: ["italic", "font-bold"] },
-      { text: " in dialogue" },
+      { text: "ethical, methodological, and technological challenges", styles: ["italic", "font-bold"] },
     ],
-    date: "November 5th-7th 2025",
+    date: "October 28th-29th 2026",
     location: "Aula Affreschi, Via Zamboni 34, 40126 Bologna",
     introductoryText: [
       [
-        { text: "Three days of " },
-        { text: "seminars", styles: ["font-bold"] },
-        { text: " and " },
-        { text: "workshops", styles: ["font-bold"] },
-        { text: ", exploring key research and " },
-        { text: "practices", styles: ["font-bold"] },
-        { text: " in " },
-        { text: "Digital Humanities", styles: ["font-bold"] },
-        {
-          text: ", establishing a methodological exchange between two leading research centers, the ",
-        },
-        { text: "/DH.arc", styles: ["font-bold"] },
-        { text: " (Bologna) and the " },
-        { text: "DHLab", styles: ["font-bold"] },
-        {
-          text: " (Amsterdam). Designed for researchers, students, cultural heritage professionals, and information and knowledge engineers.",
+        { text: "A two-day workshop dedicated to the challenges associated with the collection, management, and sharing of oral data. "
         },
       ],
       [
-        { text: "Attendance was " },
+        { text: "Participation is " },
         { text: "free", styles: ["font-bold"] },
         { text: " and open to all." },
       ],
     ],
     registration: {
-      buttonText: "View Collection on Figshare",
-      doiUrl: "https://doi.org/10.6084/m9.figshare.c.8135426",
-      doiLabel: "DOI: 10.6084/m9.figshare.c.8135426",
+      buttonText: "Register to attend",
+      doiUrl: "https://forms.cloud.microsoft/e/tpyqx77Z3L"
     },
     about: {
       title: "About",
@@ -46,59 +27,48 @@ export const seminarData = {
         // Paragrafo 1 (complesso, con corsivo)
         [
           {
-            text: "The Building Knowledge Landscapes Across the Digital Humanities: /DH.arc & DHLab in Dialogue",
-            styles: ["italic"],
-          },
-          {
-            text: " was a three-day seminar dedicated to relevant topics such as Knowledge Organization, Representation, Visualization, and Extraction within Humanities and Cultural Heritage Domain. Throughout the seminar, particular emphasis was placed on examining approaches and practices adopted within the Digital Humanities to highlight how diverse perspectives can address similar challenges in the field.",
+            text: "Linguistic data represent a valuable resource for researchers across various disciplines, such as the digital humanities, oral history, linguistics, sociology, anthropology, media studies, memory studies, and others; working with these materials raises numerous methodological, technical, and ethical challenges. In fact, this work requires addressing issues that arise from different yet closely interconnected research perspectives.",
           },
         ],
         // Paragrafo 2 (complesso, con link e corsivo)
         [
           {
-            text: "At the core of the initiative is the methodological exchange between two prominent Digital Humanities research centers: the ",
-          },
-          {
-            text: "/DH.arc - Digital Humanities Research Center of the University of Bologna",
-            styles: ["italic"],
-            href: "https://site.unibo.it/dharc/en",
-          },
-          { text: " and the " },
-          {
-            text: "Digital Humanities Research Lab of Amsterdam",
-            href: "https://dhlab.huc.knaw.nl/",
-          },
-          {
-            text: ". The format alternated between contributions from local speakers and invited guests, creating spaces for open debates and discussions. This structure aimed to foster meaningful dialogue between international scholars while creating concrete opportunities for collaborative research development in DH. The  series concluded with interactive workshops designed to bridge theoretical frameworks with practical applications in DH research.",
+            text: "A crucial issue common to all researchers working with oral data is the difficulty of making the data FAIR and accessible to the widest possible audience while simultaneously complying with the privacy and copyright restrictions set forth by the GDPR.",
           },
         ],
         // Paragrafo 3 (semplice, solo testo)
-        "The initiative was open to researchers at any level, students, cultural heritage professionals, and information and knowledge engineers. The contributions presented reflected research at different stages of development, ranging from exploratory ideas and pilot studies to established tools and mature projects.",
-        // Paragrafo 4 (semplice)
-        "The first two days were dedicated to talks following a seminar-style format. Each day opened with a keynote introducing the main theme, delivered by the two leading figures of the partner research centers: Prof. Francesca Tomasi (/DH.arc, University of Bologna) and Dr. Marieke van Erp (DHLab, Amsterdam). Day one explored Knowledge Organization and Visualization, while day two focused on Knowledge Extraction and, more generally, on Knowledge Practices.",
-        // Paragrafo 5 (semplice)
-        "The third and final day was entirely dedicated to two practical workshops. The first workshop introduced methods of text annotation showing how to build specific datasets from textual data using RDF. The second workshop explored different technologies for extracting and analyzing reading experiences in online book reviews.",
-        // Paragrafo 6 (complesso, con link e corsivo)
         [
           {
-            text: "This seminar was organized by PhD students at the University of Bologna as part of the ",
+            text: "In spoken data, the problem arises from the very feature that distinguishes it—namely, “the voice”—which, on the one hand, constitutes potentially identifiable personal data and must therefore be anonymized, but on the other hand, is an intrinsic and “unobscurable” element in many research fields that work with oral materials.",
+          },
+        ],
+        // Paragrafo 4 (semplice)
+        [
+          {
+            text: "A second crucial issue concerns the use of automated and/or generative technologies to facilitate the study and sharing of this data. For textual data, the intersection of computer science and the humanities has been a common practice shared across various fields of study for years; however, it has recently faced new challenges due to the growing capabilities and popularity of automated and generative systems. For spoken language, one of the major challenges associated with these systems is transcription, which—while making the content of the collected data more easily accessible—involves a normalization of speech that obscures certain fundamental elements of analysis related to non-standard linguistic varieties, spontaneous speech, or multilingual contexts.",
+          },
+        ],
+        // Paragrafo 5 (complesso, con link e corsivo)
+        [
+          {
+            text: "In light of these and other critical issues, the workshop aims to provide a forum for exchange among researchers, industry professionals, and students who, while adopting different methodological approaches and operational practices, have grappled with the challenges associated with the collection, management, use, and sharing of these types of data within the framework of Open Science and interdisciplinarity. The goal is to foster discussion among diverse experiences, share solutions and best practices, and contribute to the development of a shared body of knowledge that can support the research community in the responsible and effective handling of data."
+          }
+        ],
+        [
+          {
+            text: "This workshop is organized by Silvia Ballarè, Nike F. Del Quercio, Laurent Fintoni, Costanza Paolillo in collaboration with",
           },
           {
-            text: "BolDH - Bologna Digital Humanities ecosystem",
+            text: " BolDH - Bologna Digital Humanities ecosystem",
             href: "https://dharc-org.github.io/boldh/",
           },
-          { text: " of the University of Bologna, in collaboration with the " },
+          { text: " and" },
           {
-            text: "/DH.arc - Digital Humanities Research Center of the University of Bologna",
+            text: " /DH.arc - Digital Humanities Research Center of the University of Bologna",
             styles: ["italic"],
             href: "https://site.unibo.it/dharc/en",
           },
-          { text: " and the " },
-          {
-            text: "Digital Humanities Research Lab of Amsterdam",
-            href: "https://dhlab.huc.knaw.nl/",
-          },
-          { text: "." },
+          { text: " as well as the support of X, Y, Z. " },
         ],
       ],
     },
@@ -113,278 +83,138 @@ export const seminarData = {
     schedule: [
       {
         dayTitle: "Day 1",
-        date: "November 5, 2025",
+        date: "October 28, 2026",
         sessions: [
           {
-            sessionTitle: "Opening and Keynote",
-            chair: "Keynote Chair: Paola Italia",
+            sessionTitle: "Opening",
             events: [
-              { time: "10:00 - 10:30", type: "welcome", title: "Welcome" },
-              {
-                time: "10:30 - 11:00",
-                type: "keynote",
-                title: "Keynote",
-                speaker: "Prof. Francesca Tomasi",
-                link: "https://youtu.be/DOs9q_umkhk?si=8buv6qq2qpUAl6zw",
+              { time: "10:00 - 10:30", 
+                type: "welcome", 
+                title: "Welcome", 
+                speaker: "Nicola Grandi, Francesca Tomasi, Giuliana Benvenuti"
               },
             ],
           },
           {
-            sessionTitle: "SESSION I: KNOWLEDGE ORGANIZATION AND VISUALIZATION",
-            chair: "Session Chair: Joris van Zundert",
+            sessionTitle: "SESSION I: ORAL DATA PROJECTS FROM BOLOGNA",
+            chair: "Session Chair: TK",
             events: [
               {
-                time: "11:00 - 11:20",
+                time: "10:30 - 10:50",
                 type: "talk",
                 title:
-                  "Literary Constraints and Combinatory Structures: Towards a Semantic Model",
-                speaker: "Enrica Bruno",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/rGw4VdOU9KU?si=IGV-SDXgR_Nt61Zq",
+                  "The FAIR Memories project",
+                speaker: "Nike Francesca Del Quercio, Costanza Paolillo",
+                affiliation: "University of Bologna, FICLIT",
               },
               {
-                time: "11:20 - 11:40",
+                time: "10:50 - 11:10",
                 type: "talk",
-                title: "Encoding documents as Graphs using Markup",
-                speaker: "Ronald Haentjens Dekker",
-                affiliation: "DHLab",
+                title: "The KiParla project",
+                speaker: "Silvia Ballarè, Caterina Mauri",
+                affiliation: "University of Bologna, FICLIT",
               },
-              { time: "11:40 - 12:10", type: "break", title: "Coffee Break" },
               {
-                time: "12:10 - 12:30",
+                time: "11:10 - 11:30",
                 type: "talk",
                 title:
-                  "Copyright and Computation: Rethinking Gadda through Open Data and Visualization",
-                speaker: "Lorenzo Sabatino, Martina Pensalfini",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/YhruOhJnGpo?si=3Fe1KeP1LdvpWEhL",
+                  "Women of Italian Cinema project",
+                speaker: "Michela Zegna",
+                affiliation: "Cineteca di Bologna",
               },
               {
-                time: "12:30 - 12:50",
+                time: "11:30 - 11:50",
                 type: "talk",
                 title:
-                  "Analyzing semantic change through centuries in Cultural Heritage documents",
-                speaker: "Jiaqi Zhu",
-                affiliation: "DHLab",
-                link: "https://youtu.be/PtpuZfFCFkg?si=JiOYDp3BId8w55BU"
+                  "Bologna in the 1990s project",
+                speaker: "Jacopo Lorenzini, Toni Rovatti",
+                affiliation: "University of Bologna, MemoryLab",
               },
-              { time: "12:50 - 13:00", type: "qa", title: "Q&A" },
-              { time: "13:00 - 14:30", type: "lunch", title: "Lunch Break" },
+              { time: "11:50 - 12:30", type: "qa", title: "Q&A" },
+              { time: "12:30 - 14:00", type: "lunch", title: "Lunch Break" },
             ],
           },
           {
             sessionTitle:
-              "SESSION II: KNOWLEDGE ORGANIZATION AND VISUALIZATION II",
-            chair: "Session Chair: Marijn Koolen",
+              "SESSION II: DIGITAL HUMANITIES AT THE CROSSROADS OF ORAL DATA",
+            chair: "Session Chair: TBC",
             events: [
               {
-                time: "14:30 - 14:50",
+                time: "14:00 - 14:20",
                 type: "talk",
                 title:
-                  "From Words to Images: A Framework for Modeling Ekphrasis",
-                speaker: "Maria Francesca Bocchi, Carlo Teo Pedretti",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/U96sWCa__cU?si=tHsT_S8cGpyXvkgp",
+                  "K-Oar: the CLARIN Knowledge Centre for Oral Archives",
+                speaker: "Silvia Calamai",
+                affiliation: "University of Siena",
               },
               {
-                time: "14:50 - 15:10",
+                time: "14:20 - 14:40",
                 type: "talk",
                 title:
-                  "Visualizing the Humanities: a survey of visualization practices, narrativity, and critical approaches in Digital Humanities projects",
-                speaker: "Tommaso Battisti",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/4N_N2VKJe7Q?si=dvwuyKYVGHtZOeic",
+                  "Oral Sources and Linguistic Research: Regional Italian from Turin in the Giorgina Levi Arian Collection",
+                speaker: "Daniela Mereu",
+                affiliation: "University of Turin",
               },
-              { time: "15:10 - 15:40", type: "break", title: "Coffee Break" },
               {
-                time: "15:40 - 16:00",
+                time: "14:40 - 15:00",
                 type: "talk",
                 title:
-                  "Experimenting a semi-automatic approach based on online surveys to formalize unstructured knowledge in linked data",
-                speaker: "Arianna Moretti, Sebastian Barzaghi",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/_hN7kVfgum8?si=Of4ZL1BvIHwuL80f",
+                  "From Oral History to Oral Archives (and Vice Versa): Research Experiences",
+                speaker: "Alessandro Casellato",
+                affiliation: "University of Venice Ca' Foscari",
               },
               {
-                time: "16:00 - 16:20",
+                time: "15:00 - 15:20",
                 type: "talk",
                 title:
-                  "From Data to Meaning: Narrative Visualization for Critical Thinking in Semantic Web Learning",
-                speaker: "Giulia Renda",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/3Cw34AObe1c?si=sypvsQB7nd8NVDKK"
+                  "In the Hybrid Archive, Between Orality and Writing",
+                speaker: "Emmanuela Carbè",
+                affiliation: "University of Venice Ca' Foscari",
               },
-              {
-                time: "16:20 - 16:40",
-                type: "talk",
-                title: "Representing Born-digital Archives: from File Systems to Knowledge Graphs ",
-                speaker: "Lucia Giagnolini",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/oAUUmju0yTM?si=M-gO8996M1hPUGMd",
-              },
+              { time: "15:20 - 16:00", type: "qa", title: "Q&A" },
+              { time: "16:00 - 16:30", type: "break", title: "Coffee Break" },
             ],
           },
           {
-            sessionTitle: "SESSION III: Open debate",
-            chair: "Debate Chair: Paolo Bonora",
+            sessionTitle: "SESSION III: Workshop",
             events: [
               {
-                time: "16:40 - 17:30",
-                type: "qa",
-                title: "Q&A and Final Discussion",
+                time: "16:30 - 18:00",
+                type: "workshop",
+                curator: "Silvia Ballarè, Laurent Fintoni",
+                title: "Workshop: Transcription and Annotation - Tools & Best Practices",
               },
-              { time: "17:30", type: "conclusion", title: "Conclusion" },
+              { time: "18:00", type: "conclusion", title: "End" },
             ],
           },
         ],
       },
       {
         dayTitle: "Day 2",
-        date: "November 6, 2025",
+        date: "October 29, 2026",
         sessions: [
           {
-            sessionTitle: "Opening and Keynote",
-            chair: "Keynote Chair: Francesca Tomasi",
-            events: [
-              { time: "10:00 - 10:30", type: "welcome", title: "Welcome" },
-              {
-                time: "10:30 - 11:00",
-                type: "keynote",
-                title: "Keynote",
-                speaker: "Marieke van Erp",
-                link: "https://youtu.be/XYkspIz1Jmg?si=nzOvjAsdLVcnew8_",
-              },
-            ],
-          },
-          {
-            sessionTitle: "SESSION I: KNOWLEDGE EXTRACTION",
-            chair: "Session Chair: Fabio Vitali",
+            sessionTitle: "SESSION IV: INTERDISCIPLINARY ROUNDTABLES",
+            chair: "Session Chair: TK",
             events: [
               {
-                time: "11:00 - 11:20",
-                type: "talk",
+                time: "09:00 - 10:30",
+                type: "roundtable",
                 title:
-                  "Hardships in Narratological Modeling and Literary Language Processing",
-                speaker: "Joris van Zundert",
-                affiliation: "DHLab",
-                link: "https://youtu.be/sDZZVUDvUVI?si=kFMdN4L5UoM83F4s"
+                  "Legal and Ethical Issues in the Management of Oral Data",
+                speaker: "Marco Dettori, Francesca Masini, Eugenio Goria, Lottie Provost",
+                affiliation: "University of Bologna, University of Turin, ILC-CNR",
               },
+              { time: "10:30 - 11:00", type: "break", title: "Coffee Break" },
               {
-                time: "11:20 - 11:40",
-                type: "talk",
+                time: "11:00 - 12:30",
+                type: "roundtable",
                 title:
-                  "Knowledge Extraction of Digital Hermeneutics: the Case of the Van den vos Reynaerde",
-                speaker: "Andrea Schimmenti",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/ssmYXxz9R-8?si=KIhpjp4cdCg6I3WT"
+                  "Archiving, Handling, and Sharing Oral Data: Interdisciplinary Perspectives",
+                speaker: "Francesca Tomasi, Silvia Calamai, Jacopo Lorenzi, Toni Rovatti, Daniela Mereu",
+                affiliation: "University of Bologna, University of Siena, University of Turin",
               },
-              { time: "11:40 - 12:10", type: "break", title: "Break" },
-              {
-                time: "12:10 - 12:30",
-                type: "talk",
-                title:
-                  "Formulaic language in historical political-administrative corpora",
-                speaker: "Marijn Koolen",
-                affiliation: "DHLab",
-                link: "https://youtu.be/-kBG-bimu4c?si=vpAP2lPsvBi9iVRB"
-              },
-              {
-                time: "12:30 - 12:50",
-                type: "talk",
-                title:
-                  "Automatic Extraction and Diachronic Analysis of Olfactory Language",
-                speaker: "Teresa Paccosi",
-                affiliation: "DHLab",
-                link: "https://youtu.be/I_Fn9p0gN2I?si=nCkH97gfhsbjOvpe"
-              },
-              { time: "12:50 - 13:00", type: "qa", title: "Q&A" },
-              { time: "13:00 - 14:30", type: "lunch", title: "Lunch Break" },
-            ],
-          },
-          {
-            sessionTitle: "SESSION II: KNOWLEDGE PRACTICES",
-            chair: "Session Chair: Ivan Heibi",
-            events: [
-              {
-                time: "14:30 - 14:50",
-                type: "talk",
-                title:
-                  "Understanding questions: natural language queries and knowledge graphs",
-                speaker: "Remo Grillo",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/lP0rR8P-ntc?si=yzwW8dl7OlZN94se"
-              },
-              {
-                time: "14:50 - 15:10",
-                type: "talk",
-                title:
-                  "What’s on the plate? Dutch culinary trends from historical recipes",
-                speaker: "Gauri Bhagwat",
-                affiliation: "DHLab",
-                link: "https://youtu.be/cpAU29DfLFY?si=1dME0YnFplpvtRBV"
-              },
-              { time: "15:10 - 15:40", type: "break", title: "Coffee Break" },
-              {
-                time: "15:40 - 16:00",
-                type: "talk",
-                title:
-                  "Scholarly Primitives Revisited (again): Building a Taxonomy of Scholarly Digital Objects",
-                speaker: "Laurent Fintoni",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/s2tOcAakuBw?si=VimRbBctCT5LfIG6" 
-              },
-              {
-                time: "16:00 - 16:20",
-                type: "talk",
-                title:
-                  "Tracing the Art Market: A Digital-Semantic Workflow for the Zeri Foundation’s Historical Auction Records (1879-1929)",
-                speaker: "Valentina Rossetti, Valentina Pasqual",
-                affiliation: "/DH.arc",
-                link: "https://youtu.be/ED9BxIcvJgw?si=KvhnQe8Ewnik8JZf"
-              },
-            ],
-          },
-          {
-            sessionTitle: "SESSION III: Open debate",
-            chair: "Debate Chair: Teresa Paccosi",
-            events: [
-              {
-                time: "16:20 - 17:30",
-                type: "qa",
-                title: "Q&A and Final Discussion",
-              },
-              { time: "17:30", type: "conclusion", title: "Conclusion" },
-            ],
-          },
-        ],
-      },
-      {
-        dayTitle: "Day 3",
-        date: "November 7, 2025",
-        sessions: [
-          {
-            sessionTitle: "Workshops' Day",
-            events: [
-              { time: "09:00 - 09:30", type: "welcome", title: "Welcome" },
-              {
-                time: "09:30 - 11:00",
-                type: "workshop",
-                title: "Workshop: Semantic Annotation with INCEpTION",
-                speaker: "Curated by Teresa Paccosi",
-              },
-              { time: "11:00 - 11:30", type: "break", title: "Coffee Break" },
-              {
-                time: "11:30 - 13:00",
-                type: "workshop",
-                title:
-                  "Workshop: Analyzing multilingual dataset of online book reviews",
-                speaker: "Curated by Marijn Koolen, Joris van Zundert",
-              },
-              {
-                time: "13:00 - 13:15",
-                type: "conclusion",
-                title: "Feedback and Conclusion",
-              },
+              { time: "12:30 - 13:00", type: "conclusion", title: "Closing Remarks" },
             ],
           },
         ],
@@ -392,45 +222,25 @@ export const seminarData = {
     ],
   },
   it: {
-    title: "Costruire Paesaggi di Conoscenza nelle Digital Humanities",
+    title: "Dati Orali, FAIR-ness, e DH:",
     subtitle: [
-      { text: "/DH.arc", styles: ["italic", "font-bold"] },
-      { text: " e " },
-      { text: "DHLab", styles: ["italic", "font-bold"] },
-      { text: " in dialogo" },
+      { text: "sfide etiche, metodologiche e tecnologiche", styles: ["italic", "font-bold"] },
     ],
-    date: "5-7 Novembre 2025",
+    date: "28-29 Ottobre 2026",
     location: "Aula Affreschi, Via Zamboni 34, 40126 Bologna",
     introductoryText: [
       [
-        { text: "Tre giorni di " },
-        { text: "seminari", styles: ["font-bold"] },
-        { text: " e " },
-        { text: "workshop", styles: ["font-bold"] },
-        { text: ", esplorando ricerche e " },
-        { text: "pratiche", styles: ["font-bold"] },
-        { text: " chiave nelle " },
-        { text: "Digital Humanities", styles: ["font-bold"] },
-        {
-          text: ", stabilendo uno scambio metodologico tra due importanti centri di ricerca, il ",
-        },
-        { text: "/DH.arc", styles: ["font-bold"] },
-        { text: " (Bologna) e il " },
-        { text: "DHLab", styles: ["font-bold"] },
-        {
-          text: " (Amsterdam). Progettato per ricercatori, studenti, professionisti del patrimonio culturale e ingegneri dell'informazione e della conoscenza.",
-        },
+        { text: "Un workshop di due giorni dedicato alle sfide legate alla raccolta, alla gestione e alla condivisione dei dati orali." },
       ],
       [
-        { text: "La partecipazione era " },
+        { text: "La partecipazione è " },
         { text: "gratuita", styles: ["font-bold"] },
         { text: " e aperta a tutti." },
       ],
     ],
     registration: {
-      buttonText: "Visualizza la Collezione su Figshare",
-      doiUrl: "https://doi.org/10.6084/m9.figshare.c.8135426",
-      doiLabel: "DOI: 10.6084/m9.figshare.c.8135426",
+      buttonText: "Register to attend",
+      doiUrl: "https://forms.cloud.microsoft/e/tpyqx77Z3L",
     },
     about: {
       title: "Informazioni",
