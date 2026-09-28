@@ -8,8 +8,8 @@ const nextConfig = {
   },
   // Only add basePath and assetPrefix in production for GitHub Pages
   ...(isProd && {
-    basePath: '/dharc-x-dhlab-seminars',
-    assetPrefix: '/dharc-x-dhlab-seminars',
+    basePath: '/fm-kp-workshop',
+    assetPrefix: '/fm-kp-workshop',
   }),
 };
 

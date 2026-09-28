@@ -12,8 +12,8 @@ This repository contains a Next.js application with Tailwind CSS. Follow these i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aschimmenti/dharc-x-dhlab-building-landscapes.git
-   cd dharc-x-dhlab-building-landscapes
+   git clone https://github.com/laurentfintoni/fm-kp-workshop.git
+   cd fm-kp-workshop
    ```
 
 2. Install dependencies:
