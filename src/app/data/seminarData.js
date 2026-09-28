@@ -82,9 +82,43 @@ export const seminarData = {
       committee: "Organizing Committee",
     },
     footer: {
-      fundingText: "This event was funded by Fondazione Carisbo through the Cultura e Rigenerazione 2025 program and by Alma Mater Studiorum - University of Bologna.",
-      fundingLinkCarisbo: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
-      fundingLinkUnibo: "https://ficlit.unibo.it/it",
+      committee: [
+        { name: "Silvia Ballarè", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Giuliana Benvenuti", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Nike Francesca Del Quercio", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Laurent Fintoni", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Nicola Grandi", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "Member", isProfessor: true },
+        { name: "Costanza Paolillo", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Silvio Peroni", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Francesca Tomasi", affiliation: "University of Bologna", role: "Supervisor", isProfessor: true },
+      ],
+      contact: {
+        title: "Contact",
+        emailLabel: "Email:",
+        email: "know.land.unibo@gmail.com",
+        infoText: "For more information, visit",
+        infoLinkText: "Bologna DH ecosystem",
+        infoLinkHref: "https://dharc-org.github.io/boldh/",
+      },
+      venue: {
+        title: "Venue",
+        lines: [
+          "28-29 October 2026",
+          "Aula Affreschi, Via Zamboni 34",
+          "40126 Bologna, Italy",
+        ],
+      },
+      funding: [
+        { text: "This event was funded by " },
+        { text: "Fondazione Carisbo", styles: ["font-bold"] },
+        { text: " through the " },
+        { text: "Cultura e Rigenerazione 2025", href: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/" },
+        { text: " program and by " },
+        { text: "Alma Mater Studiorum - University of Bologna", href: "https://ficlit.unibo.it/it" },
+        { text: "." },
+      ],
+      copyrightText: "/DH.arc & DHLab Seminar. All rights reserved.",
     },
     schedule: [
       {
@@ -309,9 +343,45 @@ export const seminarData = {
       committee: "Comitato Organizzatore",
     },
     footer: {
-      fundingText: "L'evento è finanziato da Fondazione Carisbo attraverso il bando Cultura e Rigenerazione 2025 e da Alma Mater Studiorum - Università di Bologna.",
-      fundingLinkCarisbo: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/",
-      fundingLinkUnibo: "https://ficlit.unibo.it/it",
+      // NOTE: committee / contact / venue below are English placeholders (there was
+      // no Italian version before) — translate as needed.
+      committee: [
+        { name: "Silvia Ballarè", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Giuliana Benvenuti", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Nike Francesca Del Quercio", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Laurent Fintoni", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Nicola Grandi", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "Member", isProfessor: true },
+        { name: "Costanza Paolillo", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Silvio Peroni", affiliation: "University of Bologna", role: "Member", isProfessor: true },
+        { name: "Francesca Tomasi", affiliation: "University of Bologna", role: "Supervisor", isProfessor: true },
+      ],
+      contact: {
+        title: "Contact",
+        emailLabel: "Email:",
+        email: "know.land.unibo@gmail.com",
+        infoText: "For more information, visit",
+        infoLinkText: "Bologna DH ecosystem",
+        infoLinkHref: "https://dharc-org.github.io/boldh/",
+      },
+      venue: {
+        title: "Venue",
+        lines: [
+          "28-29 October 2026",
+          "Aula Affreschi, Via Zamboni 34",
+          "40126 Bologna, Italy",
+        ],
+      },
+      funding: [
+        { text: "L'evento è finanziato da " },
+        { text: "Fondazione Carisbo", styles: ["font-bold"] },
+        { text: " attraverso il bando " },
+        { text: "Cultura e Rigenerazione 2025", href: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/" },
+        { text: " e da " },
+        { text: "Alma Mater Studiorum - Università di Bologna", href: "https://ficlit.unibo.it/it" },
+        { text: "." },
+      ],
+      copyrightText: "/DH.arc & DHLab Seminar. All rights reserved.",
     },
     schedule: [
       {

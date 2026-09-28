@@ -4,74 +4,19 @@ import { seminarData } from '../data/seminarData';
 
 const Footer = ({ language = 'en' }) => {
   const content = seminarData[language] || seminarData['en'];
-  const committeeMembers = [
-    {
-      name: "Silvia Ballarè",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: true,
-    },
-    {
-      name: "Giuliana Benvenuti",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: true,
-    },
-    {
-      name: "Nike Francesca Del Quercio",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: false,
-    },
-    {
-      name: "Laurent Fintoni",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: false,
-    },
-    {
-      name: "Nicola Grandi",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: false,
-    },
-    {
-      name: "Stephen Gundle",
-      affiliation: "University of Warwick",
-      role: "Member",
-      isProfessor: true,
-    },
-    {
-      name: "Costanza Paolillo",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: false,
-    },
-    {
-      name: "Silvio Peroni",
-      affiliation: "University of Bologna",
-      role: "Member",
-      isProfessor: true,
-    },
-    {
-      name: "Francesca Tomasi",
-      affiliation: "University of Bologna",
-      role: "Supervisor",
-      isProfessor: true,
-    },
-  ];
+  const footer = content.footer;
+  const committeeMembers = footer.committee || [];
 
   return (
     // CAMBIATO: Sfondo ora usa bg-background. Rimosso text-gray-300 perché ereditato da body.
     <footer className="bg-background py-2 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* CAMBIATO: Colore del bordo ora usa la variabile border-border. */}
+        {/* == COMMITTEE ==================================================== */}
         <div className="border-b border-border pb-8 mb-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {committeeMembers.map((member, index) => (
               <div
                 key={index}
-                // CAMBIATO: Ora tutte le card usano lo stesso sfondo e si differenziano per il bordo.
                 className={`p-4 rounded-lg shadow-md bg-card-background border ${
                   member.isProfessor ? "border-primary" : "border-border"
                 }`}
@@ -83,11 +28,9 @@ const Footer = ({ language = 'en' }) => {
                 >
                   {member.name}
                 </h3>
-                {/* CAMBIATO: Colore testo secondario ora usa text-foreground con opacità. */}
                 <p className="text-foreground/70 text-sm">
                   {member.affiliation}
                 </p>
-                {/* CAMBIATO: Colore del ruolo per i professori ora usa text-foreground. */}
                 <p
                   className={`text-xs mt-2 ${
                     member.isProfessor ? "text-foreground/80" : "text-primary"
@@ -100,88 +43,78 @@ const Footer = ({ language = 'en' }) => {
           </div>
         </div>
 
+        {/* == CONTACT + VENUE ============================================= */}
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4 text-foreground">
-              Contact
+              {footer.contact.title}
             </h3>
             <p className="mb-2">
-              Email:{" "}
+              {footer.contact.emailLabel}{" "}
               <a
-                href="mailto:know.land.unibo@gmail.com"
+                href={`mailto:${footer.contact.email}`}
                 className="text-primary hover:underline"
               >
-                know.land.unibo@gmail.com
+                {footer.contact.email}
               </a>
             </p>
             <p className="mb-2">
-              For more information, visit{" "}
+              {footer.contact.infoText}{" "}
               <a
-                href="https://dharc-org.github.io/boldh/"
+                href={footer.contact.infoLinkHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                Bologna DH ecosystem
+                {footer.contact.infoLinkText}
               </a>
             </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4 text-foreground">
-              Venue
+              {footer.venue.title}
             </h3>
-            <p>5th to 7th November 2025</p>
-            <p>Aula Affreschi, Via Zamboni 34</p>
-            <p>40126 Bologna, Italy</p>
+            {footer.venue.lines.map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
           </div>
         </div>
 
-        {/* ================================================================ */}
         {/* == FUNDING ATTRIBUTION ========================================= */}
-        {/* ================================================================ */}
         <div className="mt-8 pt-8 border-t border-border">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-base md:text-lg text-foreground font-semibold">
-              {content.footer.fundingText.split('Fondazione Carisbo')[0]}
-              <span className="font-bold">Fondazione Carisbo</span>
-              {content.footer.fundingText.split('Fondazione Carisbo')[1].split('Cultura e Rigenerazione 2025')[0]}
-              <a
-                href={content.footer.fundingLinkCarisbo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline font-bold ml-1"
-              >
-                Cultura e Rigenerazione 2025
-              </a>
-              {content.footer.fundingText.split('Cultura e Rigenerazione 2025')[1].split('Alma Mater Studiorum')[0]}
-              <a
-                href={content.footer.fundingLinkUnibo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline font-bold"
-              >
-                Alma Mater Studiorum - {language === 'en' ? 'University of Bologna' : 'Università di Bologna'}
-              </a>
-              {content.footer.fundingText.split('Alma Mater Studiorum')[1].split(language === 'en' ? 'University of Bologna' : 'Università di Bologna')[1]}
+              {footer.funding.map((chunk, i) => {
+                const cls = (chunk.styles || []).join(" ");
+                return chunk.href ? (
+                  <a
+                    key={i}
+                    href={chunk.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${cls} text-primary hover:underline font-bold`}
+                  >
+                    {chunk.text}
+                  </a>
+                ) : (
+                  <span key={i} className={cls}>
+                    {chunk.text}
+                  </span>
+                );
+              })}
             </p>
           </div>
         </div>
 
-        {/* ================================================================ */}
-        {/* == INIZIO SEZIONE LOGHI ======================================== */}
-        {/* ================================================================ */}
-        
+        {/* == LOGOS ======================================================= */}
         <div className="mt-8 pt-8 border-t border-border text-center">
-            <LogoCloud />
+          <LogoCloud />
         </div>
-        
-        {/* ================================================================ */}
-        {/* == FINE SEZIONE LOGHI ========================================== */}
-        {/* ================================================================ */}
+
+        {/* == COPYRIGHT =================================================== */}
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-foreground/60">
           <p>
-            © {new Date().getFullYear()} /DH.arc & DHLab Seminar. All rights
-            reserved.
+            © {new Date().getFullYear()} {footer.copyrightText}
           </p>
         </div>
       </div>
