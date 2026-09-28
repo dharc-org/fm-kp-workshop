@@ -98,7 +98,7 @@ export const seminarData = {
         emailLabel: "Email:",
         email: "know.land.unibo@gmail.com",
         infoText: "For more information, visit",
-        infoLinkText: "Bologna DH ecosystem",
+        infoLinkText: "Bologna DH ecosystem.",
         infoLinkHref: "https://dharc-org.github.io/boldh/",
       },
       venue: {
@@ -110,15 +110,13 @@ export const seminarData = {
         ],
       },
       funding: [
-        { text: "This event was funded by " },
-        { text: "Fondazione Carisbo", styles: ["font-bold"] },
-        { text: " through the " },
-        { text: "Cultura e Rigenerazione 2025", href: "https://fondazionecarisbo.it/bandi-e-iniziative/cultura-e-rigenerazione/" },
-        { text: " program and by " },
+        { text: "This event is supported by " },
+        { text: "OSCARS", styles: ["font-bold"], href: "https://www.oscars-project.eu/" },
+        { text: " and by " },
         { text: "Alma Mater Studiorum - University of Bologna", href: "https://ficlit.unibo.it/it" },
         { text: "." },
       ],
-      copyrightText: "/DH.arc & DHLab Seminar. All rights reserved.",
+      copyrightText: "/DH.arc & DHLab Seminar — code MIT, content CC BY 4.0.",
     },
     schedule: [
       {
@@ -381,7 +379,7 @@ export const seminarData = {
         { text: "Alma Mater Studiorum - Università di Bologna", href: "https://ficlit.unibo.it/it" },
         { text: "." },
       ],
-      copyrightText: "/DH.arc & DHLab Seminar. All rights reserved.",
+      copyrightText: "/DH.arc & DHLab Seminar — code MIT, content CC BY 4.0.",
     },
     schedule: [
       {

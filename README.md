@@ -56,3 +56,56 @@ To set up GitHub Pages, follow these steps:
 - **postcss.config.js**: Contains PostCSS configurations for Tailwind
 - **jsconfig.json**: Contains path aliases configuration
 - **package.json**: Contains dependencies and scripts
+
+## License
+
+This project is maintained by **/DH.arc – Digital Humanities Advanced Research
+Centre, University of Bologna**.
+
+- **Source code** (everything except the content and third-party assets below) is
+  released under the **MIT License**.
+- **Site content** (the text/copy in `src/app/data/seminarData.js` and the components)
+  is released under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.
+
+### MIT License (code)
+
+```
+MIT License
+
+Copyright (c) 2025–2026 /DH.arc – Digital Humanities Advanced Research Centre,
+University of Bologna
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Third-party assets (not covered by the above)
+
+The following bundled or referenced assets retain their own licenses and are **not**
+covered by the MIT / CC BY 4.0 licenses:
+
+- **Satoshi font** (`src/app/assets/fonts/Satoshi/`) — © Indian Type Foundry,
+  distributed under the [ITF Free Font License](https://www.fontshare.com/licenses/itf-ffl).
+  Free for commercial use, but note the FFL restricts self-hosting/redistribution of
+  the font files; the files are currently bundled in this repo. **To review:** load
+  Satoshi via the Fontshare API/CDN, or replace it with a self-hostable OFL/Apache font.
+- **Logos and marks** in `public/images/` (University of Bologna, Fondazione Carisbo,
+  DHLab, etc.) are the property of their respective owners and are used for
+  attribution/identification only.
+- Third-party npm dependencies (Next.js, React, Tailwind CSS, etc.) retain their own
+  licenses (MIT/BSD/Apache).
