@@ -38,11 +38,9 @@ const SeminarContent = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
-              <img
-                src={getImagePath("/images/dhlandscapes_logo.svg")}
-                alt="DH Landscapes Logo"
-                className="h-8 w-auto"
-              />
+              <span className="font-sans text-xl font-bold tracking-wide text-foreground whitespace-nowrap">
+                FM x KP
+              </span>
               <div className="hidden md:flex items-center space-x-6">
                 <a
                   href="#program"
@@ -74,7 +72,7 @@ const SeminarContent = () => {
               className="px-4 py-2 text-sm border border-gray-600 rounded-md hover:bg-primary hover:text-white hover:border-primary transition-colors"
               onClick={() => setLanguage(language === "en" ? "it" : "en")}
             >
-              {language === "en" ? "🇮🇹 Italian" : "🇺🇸 English"}
+              {language === "en" ? "Italian" : "English"}
             </button>
           </div>
         </div>
@@ -99,11 +97,6 @@ const SeminarContent = () => {
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">
             <div className="relative z-10 max-w-3xl">
-              <img
-                src={getImagePath("/images/dhlandscapes_logo.svg")}
-                alt="DH Landscapes Logo"
-                className="h-16 w-auto mb-6"
-              />
               <h1 className="text-5xl font-bold tracking-wide leading-tight mb-2">
                 {content.title || ""}
               </h1>
