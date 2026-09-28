@@ -47,25 +47,25 @@ const SeminarContent = () => {
                   href="#program"
                   className="text-sm font-medium hover:text-primary transition-colors"
                 >
-                  Program
+                  {content.sectionLabels.program}
                 </a>
                 <a
                   href="#about"
                   className="text-sm font-medium hover:text-primary transition-colors"
                 >
-                  About
+                  {content.sectionLabels.about}
                 </a>
                 <a
                   href="#research-centers"
                   className="text-sm font-medium hover:text-primary transition-colors"
                 >
-                  Research Centers
+                  {content.sectionLabels.researchCenters}
                 </a>
                 <a
                   href="#committee"
                   className="text-sm font-medium hover:text-primary transition-colors"
                 >
-                  Committee
+                  {content.sectionLabels.committee}
                 </a>
               </div>
             </div>
