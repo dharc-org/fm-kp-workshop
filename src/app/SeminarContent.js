@@ -176,7 +176,7 @@ const SeminarContent = () => {
             onClick={() => handleToggleSection('program')}
             isOpen={openSections.program}
           >
-            {content.scheduleLabels.title || 'Program'}
+            {content.sectionLabels.program}
           </SectionTitle>
         </div>
         
@@ -196,7 +196,7 @@ const SeminarContent = () => {
             onClick={() => handleToggleSection('about')}
             isOpen={openSections.about}
           >
-            {content.about.title || 'About'}
+            {content.sectionLabels.about}
           </SectionTitle>
         </div>
 
@@ -213,7 +213,7 @@ const SeminarContent = () => {
             onClick={() => handleToggleSection('researchCenters')}
             isOpen={openSections.researchCenters}
           >
-            Research Centers
+            {content.sectionLabels.researchCenters}
           </SectionTitle>
         </div>
         
@@ -229,7 +229,7 @@ const SeminarContent = () => {
             onClick={() => handleToggleSection('committee')}
             isOpen={openSections.committee}
           >
-            Organizing Committee
+            {content.sectionLabels.committee}
           </SectionTitle>
         </div>
         
