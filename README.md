@@ -1,65 +1,10 @@
-# DH Seminars - Next.js Page Deployment Guide
+# FAIR Memories x KiParla Workshop
 
-This repository contains a Next.js application with Tailwind CSS. Follow these instructions to deploy it successfully. 
-
-## Prerequisites
-
-- Node.js (version 18.x or higher recommended)
-- npm 
-- A GitHub account
-
-## Local Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/laurentfintoni/fm-kp-workshop.git
-   cd fm-kp-workshop
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Run the development server to double check the application:
-   ```bash
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
-## Deployment to GitHub Pages
-
-This project is configured to deploy to GitHub Pages using GitHub Actions. The workflow file is already set up in `.github/workflows/nextjs.yml`. 
-To set up GitHub Pages, follow these steps:
-
-1. Push your code to a GitHub repository:
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   ```
-
-2. In your GitHub repository:
-   - Go to **Settings** > **Pages**
-   - Under **Source**, select **GitHub Actions** => select the **Next.js ** suggested workflow
-   - Click on **Save**
-
-3. The first push to the `main` branch will automatically trigger the deployment workflow. 
-
-## Important Configuration Files
-
-- **next.config.js**: Contains Next.js-specific configurations
-- **tailwind.config.js**: Contains Tailwind CSS configurations
-- **postcss.config.js**: Contains PostCSS configurations for Tailwind
-- **jsconfig.json**: Contains path aliases configuration
-- **package.json**: Contains dependencies and scripts
+This repository contains the code for the event website for the FAIR Memories x KiParla workshop, composed of a Next.js application with Tailwind CSS. This code was adapted from a previous event website for the DHLandscapes event in 2025. 
 
 ## License
 
-This project is maintained by **/DH.arc – Digital Humanities Advanced Research
+This project is maintained by Laurent Fintoni for the **/DH.arc – Digital Humanities Advanced Research
 Centre, University of Bologna**.
 
 - **Source code** (everything except the content and third-party assets below) is
@@ -100,12 +45,14 @@ The following bundled or referenced assets retain their own licenses and are **n
 covered by the MIT / CC BY 4.0 licenses:
 
 - **Fonts:** the display/body font is **Manrope** (SIL Open Font License) and the mono
-  font is **Roboto Mono** (Apache License 2.0), both loaded via `next/font/google`
-  (self-hosted at build time). *(This project previously bundled the Satoshi font under
-  the ITF Free Font License; it was removed in favour of an OFL font to avoid
-  self-hosting/redistribution restrictions.)*
-- **Logos and marks** in `public/images/` (FAIR Memories, KP, OSCARS, University of
+  font is **Roboto Mono** (Apache License 2.0)
+- **Logos and marks** in `public/images/` (FAIR Memories, KiParla, OSCARS, University of
   Bologna, DHARC, etc.) are the property of their respective owners and are used for
   attribution/identification only.
 - Third-party npm dependencies (Next.js, React, Tailwind CSS, etc.) retain their own
   licenses (MIT/BSD/Apache).
+
+## GenAI disclosure
+
+Claude Code is used to automate repo updates and for updates to the underlying JavaScript that drives the website,
+including refactoring how some of the content and menu responds to language switching, footer display, and switching the fonts.
