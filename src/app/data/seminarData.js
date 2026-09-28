@@ -1,6 +1,6 @@
 export const seminarData = {
   en: {
-    title: "Oral Data, FAIR-ness, and DH:",
+    title: "Oral Data, FAIR-ness, and DH",
     subtitle: [
       { text: "ethical, methodological, and technological challenges", styles: ["italic", "font-bold"] },
     ],
@@ -12,9 +12,9 @@ export const seminarData = {
         },
       ],
       [
-        { text: "Participation is " },
+        { text: "Participation in person or online is " },
         { text: "free", styles: ["font-bold"] },
-        { text: " and open to all." },
+        { text: " and open to all. The event will be streamed via Teams." },
       ],
     ],
     registration: {
@@ -116,7 +116,7 @@ export const seminarData = {
         { text: "Alma Mater Studiorum - University of Bologna", href: "https://ficlit.unibo.it/it" },
         { text: "." },
       ],
-      copyrightText: "/DH.arc & DHLab Seminar — code MIT, content CC BY 4.0.",
+      copyrightText: "/DH.arc — code MIT, content CC BY 4.0.",
     },
     schedule: [
       {
@@ -260,7 +260,7 @@ export const seminarData = {
     ],
   },
   it: {
-    title: "Dati Orali, FAIR-ness, e DH:",
+    title: "Dati Orali, FAIR-ness, e DH",
     subtitle: [
       { text: "sfide etiche, metodologiche e tecnologiche", styles: ["italic", "font-bold"] },
     ],
@@ -271,9 +271,9 @@ export const seminarData = {
         { text: "Un workshop di due giorni dedicato alle sfide legate alla raccolta, alla gestione e alla condivisione dei dati orali." },
       ],
       [
-        { text: "La partecipazione è " },
+        { text: "La partecipazione in persona o da remoto è " },
         { text: "gratuita", styles: ["font-bold"] },
-        { text: " e aperta a tutti." },
+        { text: " e aperta a tutti. L'evento sarà trasmesso in streaming via Teams." },
       ],
     ],
     registration: {
@@ -341,43 +341,41 @@ export const seminarData = {
       committee: "Comitato Organizzatore",
     },
     footer: {
-      // NOTE: committee / contact / venue below are English placeholders (there was
-      // no Italian version before) — translate as needed.
       committee: [
-        { name: "Silvia Ballarè", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Giuliana Benvenuti", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Nike Francesca Del Quercio", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Laurent Fintoni", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Nicola Grandi", affiliation: "University of Bologna", role: "Member", isProfessor: false },
+        { name: "Silvia Ballarè", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
+        { name: "Giuliana Benvenuti", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
+        { name: "Nike Francesca Del Quercio", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
+        { name: "Laurent Fintoni", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
+        { name: "Nicola Grandi", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
         { name: "Stephen Gundle", affiliation: "University of Warwick", role: "Member", isProfessor: true },
-        { name: "Costanza Paolillo", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Silvio Peroni", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Francesca Tomasi", affiliation: "University of Bologna", role: "Supervisor", isProfessor: true },
+        { name: "Costanza Paolillo", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
+        { name: "Silvio Peroni", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
+        { name: "Francesca Tomasi", affiliation: "Università di Bologna", role: "Supervisor", isProfessor: true },
       ],
       contact: {
-        title: "Contact",
+        title: "Conttati",
         emailLabel: "Email:",
         email: "know.land.unibo@gmail.com",
-        infoText: "For more information, visit",
+        infoText: "Per ulteriori informazioni, visita",
         infoLinkText: "Bologna DH ecosystem",
         infoLinkHref: "https://dharc-org.github.io/boldh/",
       },
       venue: {
-        title: "Venue",
+        title: "Sede",
         lines: [
-          "28-29 October 2026",
+          "28-29 Ottobre 2026",
           "Aula Affreschi, Via Zamboni 34",
-          "40126 Bologna, Italy",
+          "40126 Bologna, Italia",
         ],
       },
       funding: [
         { text: "L'evento è patrocinato da " },
-        { text: "OSCARS", styles: ["font-bold"], href: "https://www.oscars-project.eu/" }
+        { text: "OSCARS", styles: ["font-bold"], href: "https://www.oscars-project.eu/" },
         { text: " e da " },
         { text: "Alma Mater Studiorum - Università di Bologna", href: "https://ficlit.unibo.it/it" },
         { text: "." },
       ],
-      copyrightText: "/DH.arc & DHLab Seminar — code MIT, content CC BY 4.0.",
+      copyrightText: "/DH.arc — code MIT, content CC BY 4.0.",
     },
     schedule: [
       {

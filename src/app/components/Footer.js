@@ -5,44 +5,13 @@ import { seminarData } from '../data/seminarData';
 const Footer = ({ language = 'en' }) => {
   const content = seminarData[language] || seminarData['en'];
   const footer = content.footer;
-  const committeeMembers = footer.committee || [];
 
   return (
-    // CAMBIATO: Sfondo ora usa bg-background. Rimosso text-gray-300 perché ereditato da body.
-    <footer className="bg-background py-2 md:py-4">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* == COMMITTEE ==================================================== */}
-        <div className="border-b border-border pb-8 mb-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {committeeMembers.map((member, index) => (
-              <div
-                key={index}
-                className={`p-4 rounded-lg shadow-md bg-card-background border ${
-                  member.isProfessor ? "border-primary" : "border-border"
-                }`}
-              >
-                <h3
-                  className={`text-lg font-semibold mb-1 ${
-                    member.isProfessor ? "text-primary" : "text-foreground"
-                  }`}
-                >
-                  {member.name}
-                </h3>
-                <p className="text-foreground/70 text-sm">
-                  {member.affiliation}
-                </p>
-                <p
-                  className={`text-xs mt-2 ${
-                    member.isProfessor ? "text-foreground/80" : "text-primary"
-                  }`}
-                >
-                  {member.role}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
+    // Always-visible site footer (contact / venue / funding / logos / copyright).
+    // The organizing-committee grid lives in Committee.js and is rendered separately
+    // inside its collapsible accordion — this footer shows regardless of that state.
+    <footer className="bg-background py-2 md:py-4 border-t border-border">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         {/* == CONTACT + VENUE ============================================= */}
         <div className="grid md:grid-cols-2 gap-8">
           <div>

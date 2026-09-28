@@ -7,6 +7,7 @@ import HeroBackground from "./components/HeroBackground";
 import ResearchCenters from "./components/ResearchCenters";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
+import Committee from "./components/Committee";
 import { getImagePath } from "./utils/getImagePath";
 import About from "./components/About.js";
 import SectionTitle from "./components/SectionTitle.js";
@@ -234,9 +235,13 @@ const SeminarContent = () => {
         </div>
         
         {openSections.committee && (
-          <Footer language={language} />
+          <Committee language={language} />
         )}
       </section>
+
+      {/* Site footer — contact / venue / funding / logos / copyright.
+          Always visible, independent of the committee accordion above. */}
+      <Footer language={language} />
     </div>
   );
 };
