@@ -5,10 +5,11 @@ import { getImagePath } from '../utils/getImagePath';
 
 // I dati dei loghi rimangono qui per comodità
 const logos = [
-  { src: getImagePath('/images/logo-a-bandiera-carisbo.png'), alt: 'Fondazione Cassa di Risparmio in Bologna' },
+  { src: getImagePath('/images/fairmemories_logo.png'), alt: 'FAIR Memories' },
+  { src: getImagePath('/images/kp_logo.png'), alt: 'KiParla' },
+  { src: getImagePath('/images/oscars_square.png'), alt: 'OSCARS' },
   { src: getImagePath('/images/logo-unibo.png'), alt: 'Alma Mater Studiorum Università di Bologna' },
   { src: getImagePath('/images/dharc-logo.svg'), alt: 'Digital Humanities Advanced Research Centre' },
-  { src: getImagePath('/images/dhlab_logo.png'), alt: 'DH Lab' },
 ];
 
 const LogoCloud = () => {

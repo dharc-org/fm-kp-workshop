@@ -8,8 +8,8 @@ import { getImagePath } from './utils/getImagePath'
 // 2. RIMOSSA la definizione della costante 'sequel'
 
 export const metadata = {
-  title: '/DH.arc & DHLab Seminar',
-  description: 'Building Knowledge Landscapes Across the Digital Humanities',
+  title: 'Fair Memories x KiParla Workshop',
+  description: 'A two-day workshop dedicated to the challenges associated with the collection, management, and sharing of oral data.',
 }
 
 export default function RootLayout({ children }) {

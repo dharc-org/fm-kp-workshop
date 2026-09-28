@@ -8,9 +8,9 @@ const ResearchCenters = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           
-          {/* /DH.arc Section */}
+          {/* FM Section */}
           <a 
-            href="https://centri.unibo.it/dharc/en" 
+            href="https://oscars-project.eu/projects/fair-memories-workflow-preservation-and-reuse-analogue-oral-history-collections" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group h-full"
@@ -18,8 +18,8 @@ const ResearchCenters = () => {
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={getImagePath('/images/dharc-logo.svg')}
-                  alt="/DH.arc Logo"
+                  src={getImagePath('/images/fairmemories_logo.png')}
+                  alt="FAIR Memories Logo"
                   width={150}
                   height={150}
                   className="transition-transform group-hover:scale-105 object-contain"
@@ -27,16 +27,15 @@ const ResearchCenters = () => {
                 />
               </div>
               <div className="text-center mt-auto">
-                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">Digital Humanities Advanced Research Centre</h3>
-                <p className="text-foreground/70">University of Bologna</p>
-                <p className="mt-4 text-sm text-primary">Part of the Bologna Digital Humanities ecosystem</p>
+                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">FAIR Memories</h3>
+                <p className="text-foreground/70">A workflow for analogue oral history collections</p>
               </div>
             </div>
           </a>
 
-          {/* DHLab Section */}
+          {/* KP Section */}
           <a 
-            href="https://dhlab.nl" 
+            href="https://kiparla.it/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group h-full"
@@ -44,8 +43,8 @@ const ResearchCenters = () => {
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
                 <Image
-                  src={getImagePath('/images/dhlab_logo.png')}
-                  alt="DHLab Logo"
+                  src={getImagePath('/images/kp_logo.png')}
+                  alt="KiParla Logo"
                   width={180}
                   height={70}
                   className="transition-transform group-hover:scale-105 object-contain"
@@ -53,9 +52,8 @@ const ResearchCenters = () => {
                 />
               </div>
               <div className="text-center mt-auto">
-                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">Digital Humanities Lab</h3>
-                <p className="text-foreground/70">KNAW Humanities Cluster</p>
-                <p className="mt-4 text-sm text-primary">Inter-institutional research group</p>
+                <h3 className="text-xl font-bold mb-2 tracking-wide text-foreground">KiParla Corpus</h3>
+                <p className="text-foreground/70">Spoken Italian and Italian speakers</p>
               </div>
             </div>
           </a>

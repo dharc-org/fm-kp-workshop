@@ -104,8 +104,8 @@ covered by the MIT / CC BY 4.0 licenses:
   (self-hosted at build time). *(This project previously bundled the Satoshi font under
   the ITF Free Font License; it was removed in favour of an OFL font to avoid
   self-hosting/redistribution restrictions.)*
-- **Logos and marks** in `public/images/` (University of Bologna, Fondazione Carisbo,
-  DHLab, etc.) are the property of their respective owners and are used for
+- **Logos and marks** in `public/images/` (FAIR Memories, KP, OSCARS, University of
+  Bologna, DHARC, etc.) are the property of their respective owners and are used for
   attribution/identification only.
 - Third-party npm dependencies (Next.js, React, Tailwind CSS, etc.) retain their own
   licenses (MIT/BSD/Apache).
