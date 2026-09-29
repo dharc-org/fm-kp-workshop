@@ -8,7 +8,7 @@ export const seminarData = {
     location: "Aula Affreschi, Via Zamboni 34, 40126 Bologna",
     introductoryText: [
       [
-        { text: "A two-day workshop dedicated to the challenges associated with the collection, management, and sharing of oral data. "
+        { text: "A two-day workshop exploring the challenges and opportunities of using oral data in research. From collection to dissemination according to FAIR principles, experts and researchers will share experiences, methodologies, and best practices for the management, preservation, and reuse of oral sources."
         },
       ],
       [
@@ -24,34 +24,34 @@ export const seminarData = {
     about: {
       title: "About",
       description: [
-        // Paragrafo 1 (complesso, con corsivo)
+        // Paragrafo 1 
         [
           {
-            text: "Linguistic data represent a valuable resource for researchers across various disciplines, such as the digital humanities, oral history, linguistics, sociology, anthropology, media studies, memory studies, and others; working with these materials raises numerous methodological, technical, and ethical challenges. In fact, this work requires addressing issues that arise from different yet closely interconnected research perspectives.",
+            text: "Oral data constitute a valuable resource for a wide range of research fields, from Digital Humanities and oral history to linguistics, sociology, anthropology, media studies, and memory studies. Their use nevertheless raises several methodological, technical, and ethical issues that call for dialogue across different disciplinary perspectives.",
           },
         ],
-        // Paragrafo 2 (complesso, con link e corsivo)
+        // Paragrafo 2
         [
           {
-            text: "A crucial issue common to all researchers working with oral data is the difficulty of making the data FAIR and accessible to the widest possible audience while simultaneously complying with the privacy and copyright restrictions set forth by the GDPR.",
+            text: "One of the central challenges concerns the possibility of making such data FAIR and accessible to as broad a research community as possible, while at the same time complying with requirements relating to privacy, personal data protection, and copyright. In the case of oral data, the tension between privacy and accessibility is particularly evident: on the one hand, the voice itself constitutes potentially identifiable personal information; on the other, it is an essential element of research in a number of fields.",
           },
         ],
         // Paragrafo 3 (semplice, solo testo)
         [
           {
-            text: "In spoken data, the problem arises from the very feature that distinguishes it—namely, “the voice”—which, on the one hand, constitutes potentially identifiable personal data and must therefore be anonymized, but on the other hand, is an intrinsic and “unobscurable” element in many research fields that work with oral materials.",
+            text: "A further challenge concerns the use of automated and generative technologies to facilitate the study, management, and dissemination of oral data. In particular, automatic transcription can make oral content more accessible and amenable to analysis, but it often entails processes of normalization that risk attenuating or eliminating elements that are relevant to research, such as non-standard linguistic varieties, features of spontaneous speech, and phenomena associated with multilingual contexts.",
           },
         ],
         // Paragrafo 4 (semplice)
         [
           {
-            text: "A second crucial issue concerns the use of automated and/or generative technologies to facilitate the study and sharing of this data. For textual data, the intersection of computer science and the humanities has been a common practice shared across various fields of study for years; however, it has recently faced new challenges due to the growing capabilities and popularity of automated and generative systems. For spoken language, one of the major challenges associated with these systems is transcription, which—while making the content of the collected data more easily accessible—involves a normalization of speech that obscures certain fundamental elements of analysis related to non-standard linguistic varieties, spontaneous speech, or multilingual contexts.",
+            text: "Against this background, the workshop provides a forum for exchange among researchers, professionals, and students who, through different methodological approaches and operational practices, engage with the challenges involved in the collection, transcription, annotation, management, preservation, and sharing of oral data.",
           },
         ],
         // Paragrafo 5 (complesso, con link e corsivo)
         [
           {
-            text: "In light of these and other critical issues, the workshop aims to provide a forum for exchange among researchers, industry professionals, and students who, while adopting different methodological approaches and operational practices, have grappled with the challenges associated with the collection, management, use, and sharing of these types of data within the framework of Open Science and interdisciplinarity. The goal is to foster discussion among diverse experiences, share solutions and best practices, and contribute to the development of a shared body of knowledge that can support the research community in the responsible and effective handling of data."
+            text: "Through project presentations, workshops, and roundtable discussions, the event brings together experiences from different disciplinary and institutional contexts, with particular attention to the use of Digital Humanities approaches and to the ethical and legal issues involved in the treatment of oral sources. The workshop aims to foster the exchange of experiences, solutions, and best practices that can support the research community in the responsible, informed, and effective management of oral data, while promoting their preservation, accessibility, and reuse."
           }
         ],
         [
@@ -68,7 +68,7 @@ export const seminarData = {
             styles: ["italic"],
             href: "https://site.unibo.it/dharc/en",
           },
-          { text: " as well as the support of X, Y, Z. " },
+          { text: " as well as the support of OSCARS and Alma Mater Studiorum - Università di Bologna. " },
         ],
       ],
     },
@@ -268,7 +268,7 @@ export const seminarData = {
     location: "Aula Affreschi, Via Zamboni 34, 40126 Bologna",
     introductoryText: [
       [
-        { text: "Un workshop di due giorni dedicato alle sfide legate alla raccolta, alla gestione e alla condivisione dei dati orali." },
+        { text: "Un workshop di due giorni sulle sfide e le opportunità legate all’uso dei dati orali nella ricerca. Dalla raccolta alla diffusione secondo i principi FAIR, esperti e ricercatori condivideranno esperienze, metodologie e buone pratiche per la gestione, conservazione e riuso delle fonti orali." },
       ],
       [
         { text: "La partecipazione in persona o da remoto è " },
@@ -286,48 +286,48 @@ export const seminarData = {
         // Paragrafo 1 (complesso, con corsivo)
         [
           {
-            text: "Linguistic data represent a valuable resource for researchers across various disciplines, such as the digital humanities, oral history, linguistics, sociology, anthropology, media studies, memory studies, and others; working with these materials raises numerous methodological, technical, and ethical challenges. In fact, this work requires addressing issues that arise from different yet closely interconnected research perspectives.",
+            text: "I dati orali costituiscono una risorsa preziosa per numerosi ambiti di ricerca, dalle Digital Humanities alla storia orale, dalla linguistica alla sociologia, dall’antropologia ai media e memory studies. Il loro utilizzo pone tuttavia una serie di questioni metodologiche, tecniche ed etiche che mettono in dialogo prospettive disciplinari diverse.",
           },
         ],
         // Paragrafo 2 (complesso, con link e corsivo)
         [
           {
-            text: "A crucial issue common to all researchers working with oral data is the difficulty of making the data FAIR and accessible to the widest possible audience while simultaneously complying with the privacy and copyright restrictions set forth by the GDPR.",
+            text: "Uno dei nodi centrali riguarda la possibilità di rendere tali dati FAIR e accessibili a una comunità scientifica il più ampia possibile, nel rispetto al contempo dei vincoli relativi alla privacy, alla protezione dei dati personali e al copyright. Nel caso dei dati parlati, la tenzione tra privacy e accessibilità è particolarmente evidente perché la voce rappresenta da un lato un dato personale potenzialmente identificativo dall’altro è un elemento essenziale per diversi ambiti della ricerca.",
           },
         ],
         // Paragrafo 3 (semplice, solo testo)
         [
           {
-            text: "In spoken data, the problem arises from the very feature that distinguishes it—namely, “the voice”—which, on the one hand, constitutes potentially identifiable personal data and must therefore be anonymized, but on the other hand, is an intrinsic and “unobscurable” element in many research fields that work with oral materials.",
+            text: "Un ulteriore sfida riguarda l’impiego di tecnologie automatiche e generative per facilitare lo studio, la gestione e la condivisione dei dati. In particolare, la trascrizione automatica può rendere i contenuti orali più facilmente accessibili e trattabili, ma spesso attua processi di normalizzazione che rischiano di attenuare o eliminare elementi rilevanti per l’analisi, come varietà linguistiche non standard, caratteristiche del parlato spontaneo e fenomeni legati ai contesti multilingui.",
           },
         ],
         // Paragrafo 4 (semplice)
         [
           {
-            text: "A second crucial issue concerns the use of automated and/or generative technologies to facilitate the study and sharing of this data. For textual data, the intersection of computer science and the humanities has been a common practice shared across various fields of study for years; however, it has recently faced new challenges due to the growing capabilities and popularity of automated and generative systems. For spoken language, one of the major challenges associated with these systems is transcription, which—while making the content of the collected data more easily accessible—involves a normalization of speech that obscures certain fundamental elements of analysis related to non-standard linguistic varieties, spontaneous speech, or multilingual contexts.",
+            text: "A partire da queste e da altre questioni, il workshop propone uno spazio di confronto tra ricercatrici e ricercatori, professionisti e studenti che, attraverso approcci metodologici e pratiche operative differenti, si confrontano con le sfide poste dalla raccolta, dalla trascrizione, dall’annotazione, dalla gestione, dalla conservazione e dalla condivisione dei dati orali.",
           },
         ],
         // Paragrafo 5 (complesso, con link e corsivo)
         [
           {
-            text: "In light of these and other critical issues, the workshop aims to provide a forum for exchange among researchers, industry professionals, and students who, while adopting different methodological approaches and operational practices, have grappled with the challenges associated with the collection, management, use, and sharing of these types of data within the framework of Open Science and interdisciplinarity. The goal is to foster discussion among diverse experiences, share solutions and best practices, and contribute to the development of a shared body of knowledge that can support the research community in the responsible and effective handling of data."
+            text: "Attraverso la presentazione di progetti, laboratori e tavole rotonde, il workshop mette in dialogo esperienze provenienti da diversi ambiti disciplinari e istituzionali, con particolare attenzione all’uso delle Digital Humanities e alle questioni etiche e giuridiche nel trattamento delle fonti orali. L’obiettivo è favorire la condivisione di esperienze, soluzioni e buone pratiche che possano sostenere la comunità scientifica nella gestione responsabile, consapevole ed efficace dei dati orali, promuovendone al tempo stesso la conservazione, l’accessibilità e il riuso."
           }
         ],
         [
           {
-            text: "This workshop is organized by Silvia Ballarè, Nike F. Del Quercio, Laurent Fintoni, Costanza Paolillo in collaboration with",
+            text: "Il workshop è organizzato da Silvia Ballarè, Nike F. Del Quercio, Laurent A. Fintoni e Costanza Paolillo, in collaborazione con",
           },
           {
             text: " BolDH - Bologna Digital Humanities ecosystem",
             href: "https://dharc-org.github.io/boldh/",
           },
-          { text: " and" },
+          { text: " e" },
           {
             text: " /DH.arc - Digital Humanities Research Center of the University of Bologna",
             styles: ["italic"],
             href: "https://site.unibo.it/dharc/en",
           },
-          { text: " as well as the support of X, Y, Z. " },
+          { text: " e il supporto di OSCARS e Alma Mater Studiorum - Università di Bologna. " },
         ],
       ],
     },
@@ -357,7 +357,7 @@ export const seminarData = {
         emailLabel: "Email:",
         email: "laurent.fintoni2@unibo.it",
         infoText: "Per ulteriori informazioni, visita",
-        infoLinkText: "Bologna DH ecosystem",
+        infoLinkText: "Bologna DH ecosystem.",
         infoLinkHref: "https://dharc-org.github.io/boldh/",
       },
       venue: {

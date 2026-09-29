@@ -19,9 +19,9 @@ const SeminarContent = () => {
 
   const [openSections, setOpenSections] = useState({
     program: true,
-    about: true,
-    researchCenters: true,
-    committee: true
+    about: false,
+    researchCenters: false,
+    committee: false
   });
 
   const handleToggleSection = (sectionName) => {
