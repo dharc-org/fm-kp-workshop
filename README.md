@@ -1,6 +1,6 @@
 # FAIR Memories x KiParla Workshop
 
-This repository contains the code for the event website for the FAIR Memories x KiParla workshop, composed of a Next.js application with Tailwind CSS. This code was adapted from a previous event website for the DHLandscapes event in 2025. 
+This repository contains the code for the event website for the FAIR Memories x KiParla workshop, composed of a Next.js application with Tailwind CSS. This code is adapted from a [previous website template for the DHLandscapes event in 2025](https://github.com/dharc-org/dharc-x-dhlab-seminars). 
 
 ## License
 

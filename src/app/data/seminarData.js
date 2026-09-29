@@ -83,20 +83,20 @@ export const seminarData = {
     },
     footer: {
       committee: [
-        { name: "Silvia Ballarè", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Giuliana Benvenuti", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Nike Francesca Del Quercio", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Laurent Fintoni", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Nicola Grandi", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "Member", isProfessor: true },
-        { name: "Costanza Paolillo", affiliation: "University of Bologna", role: "Member", isProfessor: false },
-        { name: "Silvio Peroni", affiliation: "University of Bologna", role: "Member", isProfessor: true },
-        { name: "Francesca Tomasi", affiliation: "University of Bologna", role: "Supervisor", isProfessor: true },
+        { name: "Silvia Ballarè", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Giuliana Benvenuti", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Nike Francesca Del Quercio", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Laurent Fintoni", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Nicola Grandi", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "", isProfessor: false },
+        { name: "Costanza Paolillo", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Silvio Peroni", affiliation: "University of Bologna", role: "", isProfessor: false },
+        { name: "Francesca Tomasi", affiliation: "University of Bologna", role: "", isProfessor: false },
       ],
       contact: {
         title: "Contact",
         emailLabel: "Email:",
-        email: "know.land.unibo@gmail.com",
+        email: "laurent.fintoni2@unibo.it", 
         infoText: "For more information, visit",
         infoLinkText: "Bologna DH ecosystem.",
         infoLinkHref: "https://dharc-org.github.io/boldh/",
@@ -135,7 +135,7 @@ export const seminarData = {
           },
           {
             sessionTitle: "SESSION I: ORAL DATA PROJECTS FROM BOLOGNA",
-            chair: "Session Chair: TK",
+            chair: "",
             events: [
               {
                 time: "10:30 - 10:50",
@@ -175,7 +175,7 @@ export const seminarData = {
           {
             sessionTitle:
               "SESSION II: DIGITAL HUMANITIES AT THE CROSSROADS OF ORAL DATA",
-            chair: "Session Chair: TBC",
+            chair: "",
             events: [
               {
                 time: "14:00 - 14:20",
@@ -233,7 +233,7 @@ export const seminarData = {
         sessions: [
           {
             sessionTitle: "SESSION IV: INTERDISCIPLINARY ROUNDTABLES",
-            chair: "Session Chair: TK",
+            chair: "",
             events: [
               {
                 time: "09:00 - 10:30",
@@ -342,20 +342,20 @@ export const seminarData = {
     },
     footer: {
       committee: [
-        { name: "Silvia Ballarè", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
-        { name: "Giuliana Benvenuti", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
-        { name: "Nike Francesca Del Quercio", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
-        { name: "Laurent Fintoni", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
-        { name: "Nicola Grandi", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
-        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "Member", isProfessor: true },
-        { name: "Costanza Paolillo", affiliation: "Università di Bologna", role: "Member", isProfessor: false },
-        { name: "Silvio Peroni", affiliation: "Università di Bologna", role: "Member", isProfessor: true },
-        { name: "Francesca Tomasi", affiliation: "Università di Bologna", role: "Supervisor", isProfessor: true },
+        { name: "Silvia Ballarè", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Giuliana Benvenuti", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Nike Francesca Del Quercio", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Laurent Fintoni", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Nicola Grandi", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Stephen Gundle", affiliation: "University of Warwick", role: "", isProfessor: false },
+        { name: "Costanza Paolillo", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Silvio Peroni", affiliation: "Università di Bologna", role: "", isProfessor: false },
+        { name: "Francesca Tomasi", affiliation: "Università di Bologna", role: "", isProfessor: false },
       ],
       contact: {
         title: "Conttati",
         emailLabel: "Email:",
-        email: "know.land.unibo@gmail.com",
+        email: "laurent.fintoni2@unibo.it",
         infoText: "Per ulteriori informazioni, visita",
         infoLinkText: "Bologna DH ecosystem",
         infoLinkHref: "https://dharc-org.github.io/boldh/",
@@ -394,7 +394,7 @@ export const seminarData = {
           },
           {
             sessionTitle: "SESSION I: PROGETTI SUI DATI ORALI A BOLOGNA",
-            chair: "Session Chair: TK",
+            chair: "",
             events: [
               {
                 time: "10:30 - 10:50",
@@ -434,7 +434,7 @@ export const seminarData = {
           {
             sessionTitle:
               "SESSION II: LE DH AL CROCEVIA DEI DATI ORALI",
-            chair: "Session Chair: TBC",
+            chair: "",
             events: [
               {
                 time: "14:00 - 14:20",
@@ -492,7 +492,7 @@ export const seminarData = {
         sessions: [
           {
             sessionTitle: "SESSION IV: TAVOLE ROTONDE INTERDISCIPLINARI",
-            chair: "Session Chair: TK",
+            chair: "",
             events: [
               {
                 time: "09:00 - 10:30",
