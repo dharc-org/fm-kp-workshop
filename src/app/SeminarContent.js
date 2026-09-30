@@ -13,7 +13,7 @@ import About from "./components/About.js";
 import SectionTitle from "./components/SectionTitle.js";
 
 const SeminarContent = () => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("it");
   const content = seminarData[language] || {};
   const descriptionText = content.subtitle || "";
 
@@ -81,17 +81,16 @@ const SeminarContent = () => {
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-background pt-16 pb-16">
         {/* ===== INIZIO MODIFICA ===== */}
-        {/* Hero background image + gradient overlay removed for new event — uncomment the whole block to restore */}
-        {/*
+        {/* Hero background image (background.png) + gradient overlay — RE-ENABLED, still being tuned.
+            To disable again, wrap the block below in JSX comment braces. */}
         <div className="absolute inset-0">
           <img
-            src={getImagePath("/images/header_bg.png")}
+            src={getImagePath("/images/background.png")}
             alt="Abstract background image for the seminar"
             className="absolute inset-0 w-full h-full object-cover opacity-90"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-background via-background/90 to-background/50" />
         </div>
-        */}
         {/* ===== FINE MODIFICA ===== */}
 
         <div className="relative">
