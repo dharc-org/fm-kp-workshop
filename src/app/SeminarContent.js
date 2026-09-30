@@ -39,30 +39,30 @@ const SeminarContent = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-8">
               <span className="font-sans text-xl font-bold tracking-wide text-foreground whitespace-nowrap">
-                FM x KP
+                {content.title || ""}
               </span>
               <div className="hidden md:flex items-center space-x-6">
                 <a
                   href="#program"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-medium hover:text-primary hover:no-underline transition-colors"
                 >
                   {content.sectionLabels.program}
                 </a>
                 <a
                   href="#about"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-medium hover:text-primary hover:no-underline transition-colors"
                 >
                   {content.sectionLabels.about}
                 </a>
                 <a
                   href="#research-centers"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-medium hover:text-primary hover:no-underline transition-colors"
                 >
                   {content.sectionLabels.researchCenters}
                 </a>
                 <a
                   href="#committee"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-medium hover:text-primary hover:no-underline transition-colors"
                 >
                   {content.sectionLabels.committee}
                 </a>

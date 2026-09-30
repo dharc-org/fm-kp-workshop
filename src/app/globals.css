@@ -11,7 +11,7 @@
   --background: 249 250 251;
   --foreground: 17 24 39;
   
-  --primary-color: 255 99 107;     /* #FF636B */
+  --primary-color: 242 45 87;      /* #F22D57 */
   --secondary-color: 176 255 221;   /* #b0ffdd */
 
   --card-background: 255 255 255;
@@ -24,7 +24,7 @@ html.dark {
   --background: 18 18 18; 
   --foreground: 242 242 242;
   
-  --primary-color: 255 99 107;
+  --primary-color: 242 45 87;      /* #F22D57 */
   --secondary-color: 176 255 221;
 
   --card-background: 31 41 55;
@@ -46,6 +46,10 @@ body {
   background-color: transparent;
   font-family: var(--font-satoshi), sans-serif;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2D4080;
 }
 
 a {

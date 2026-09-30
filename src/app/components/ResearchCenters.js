@@ -13,7 +13,7 @@ const ResearchCenters = () => {
             href="https://oscars-project.eu/projects/fair-memories-workflow-preservation-and-reuse-analogue-oral-history-collections" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group h-full"
+            className="group h-full hover:no-underline"
           >
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
@@ -38,7 +38,7 @@ const ResearchCenters = () => {
             href="https://kiparla.it/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group h-full"
+            className="group h-full hover:no-underline"
           >
             <div className="flex flex-col items-center space-y-6 p-8 rounded-xl bg-card-background hover:brightness-110 transition-all h-full shadow-md">
               <div className="h-[120px] flex items-center justify-center w-full">
