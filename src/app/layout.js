@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     // 3. AGGIUNTA la variabile del font al tag <html>
     // Usiamo un template literal `` per combinare le classi
-    <html lang="en" className={`${satoshi.variable} ${roboto_mono.variable} bg-background`}>
+    <html lang="it" className={`${satoshi.variable} ${roboto_mono.variable} bg-background`}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
