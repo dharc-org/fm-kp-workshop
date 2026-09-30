@@ -6,7 +6,7 @@ const RegistrationCTA = ({ registration }) => {
   }
 
   return (
-    <section className="pt-4 pb-16 bg-background text-center">
+    <section className="pt-4 pb-16 bg-background/10 backdrop-blur-sm text-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <a

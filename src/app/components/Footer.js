@@ -10,7 +10,7 @@ const Footer = ({ language = 'en' }) => {
     // Always-visible site footer (contact / venue / funding / logos / copyright).
     // The organizing-committee grid lives in Committee.js and is rendered separately
     // inside its collapsible accordion — this footer shows regardless of that state.
-    <footer className="bg-background py-2 md:py-4 border-t border-border">
+    <footer className="bg-background/10 backdrop-blur-sm py-2 md:py-4 border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         {/* == CONTACT + VENUE ============================================= */}
         <div className="grid md:grid-cols-2 gap-8">

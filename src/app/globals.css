@@ -39,7 +39,11 @@ html.dark {
 
 body {
   color: rgb(var(--foreground));
-  background-color: rgb(var(--background));
+  /* Transparent so the fixed -z-10 <SiteBackground/> shows through.
+     The opaque fallback lives on <html> (bg-background in layout.js), which
+     paints behind the background layer. Restore this to bg-background if the
+     site-wide background image is ever removed. */
+  background-color: transparent;
   font-family: var(--font-satoshi), sans-serif;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }

@@ -7,7 +7,7 @@ const About = ({ about }) => {
   }
 
   return (
-    <section className="py-2 md:py-4 bg-background">
+    <section className="py-2 md:py-4">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
 
         <div className="space-y-6 text-xl text-foreground/90 leading-relaxed">

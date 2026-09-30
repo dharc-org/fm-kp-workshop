@@ -4,7 +4,7 @@ import { getImagePath } from '../utils/getImagePath';
 
 const ResearchCenters = () => {
   return (
-    <div className="relative bg-background/90 backdrop-blur-sm py-2 md:py-4">
+    <div className="relative py-2 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           

@@ -3,12 +3,11 @@ import { useState } from "react";
 import Image from "next/image";
 import { seminarData } from "./data/seminarData.js";
 import RegistrationCTA from "./components/RegistrationCTA.js";
-import HeroBackground from "./components/HeroBackground";
+import SiteBackground from "./components/SiteBackground";
 import ResearchCenters from "./components/ResearchCenters";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 import Committee from "./components/Committee";
-import { getImagePath } from "./utils/getImagePath";
 import About from "./components/About.js";
 import SectionTitle from "./components/SectionTitle.js";
 
@@ -32,7 +31,8 @@ const SeminarContent = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen text-foreground">
+      <SiteBackground />
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-background z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,21 +78,8 @@ const SeminarContent = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <div className="relative overflow-hidden bg-background pt-16 pb-16">
-        {/* ===== INIZIO MODIFICA ===== */}
-        {/* Hero background image (background.png) + gradient overlay — RE-ENABLED, still being tuned.
-            To disable again, wrap the block below in JSX comment braces. */}
-        <div className="absolute inset-0">
-          <img
-            src={getImagePath("/images/background.png")}
-            alt="Abstract background image for the seminar"
-            className="absolute inset-0 w-full h-full object-cover opacity-90"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-background via-background/90 to-background/50" />
-        </div>
-        {/* ===== FINE MODIFICA ===== */}
-
+      {/* Hero Section — background image now lives site-wide in <SiteBackground/> */}
+      <div className="relative pt-16 pb-16 bg-background/10 backdrop-blur-sm">
         <div className="relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">
             <div className="relative z-10 max-w-3xl">
@@ -163,7 +150,7 @@ const SeminarContent = () => {
 
       {/* Schedule Component */}
 
-      <section id="program" className="py-4 md:py-6 bg-background">
+      <section id="program" className="py-4 md:py-6 bg-background/10 backdrop-blur-sm">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('program')}
@@ -183,7 +170,7 @@ const SeminarContent = () => {
       </section>
 
       {/* --- SEZIONE ABOUT --- */}
-      <section id="about" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="about" className="py-4 md:py-6 bg-background/10 backdrop-blur-sm border-t border-border">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('about')}
@@ -200,7 +187,7 @@ const SeminarContent = () => {
       </section>
 
       {/* Research Centers Section */}
-      <section id="research-centers" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="research-centers" className="py-4 md:py-6 bg-background/10 backdrop-blur-sm border-t border-border">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('researchCenters')}
@@ -216,7 +203,7 @@ const SeminarContent = () => {
       </section>
 
       {/* Organizing Committee Section */}
-      <section id="committee" className="py-4 md:py-6 bg-background border-t border-border">
+      <section id="committee" className="py-4 md:py-6 bg-background/10 backdrop-blur-sm border-t border-border">
         <div className="text-center mb-6">
           <SectionTitle 
             onClick={() => handleToggleSection('committee')}
