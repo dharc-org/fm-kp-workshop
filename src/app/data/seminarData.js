@@ -249,8 +249,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiving, Handling, and Sharing Oral Data: Interdisciplinary Perspectives",
-                speaker: "Francesca Tomasi, Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
-                affiliation: "University of Bologna, University of Siena, University of Turin",
+                speaker: "Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
+                affiliation: "University of Siena, University of Turin",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Closing Remarks" },
             ],
@@ -508,7 +508,7 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiviare, trattare e condividere i dati orali: un dialogo interdisciplinare",
-                speaker: "Francesca Tomasi, Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
+                speaker: "Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
                 affiliation: "Università di Bologna, Università di Siena, Università di Torino",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Saluti Finali" },
