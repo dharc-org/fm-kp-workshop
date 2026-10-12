@@ -135,7 +135,7 @@ export const seminarData = {
           },
           {
             sessionTitle: "SESSION I: ORAL DATA PROJECTS FROM BOLOGNA",
-            chair: "",
+            chair: "Session Chair: Laurent Fintoni",
             events: [
               {
                 time: "10:30 - 10:50",
@@ -175,7 +175,7 @@ export const seminarData = {
           {
             sessionTitle:
               "SESSION II: DIGITAL HUMANITIES AT THE CROSSROADS OF ORAL DATA",
-            chair: "",
+            chair: "Session Chair: Costanza Paolillo",
             events: [
               {
                 time: "14:00 - 14:20",
@@ -233,7 +233,7 @@ export const seminarData = {
         sessions: [
           {
             sessionTitle: "SESSION IV: INTERDISCIPLINARY ROUNDTABLES",
-            chair: "",
+            chair: "Session Chair: Silvia Ballarè, Nike del Quercio",
             events: [
               {
                 time: "09:00 - 10:30",
@@ -249,8 +249,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiving, Handling, and Sharing Oral Data: Interdisciplinary Perspectives",
-                speaker: "Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
-                affiliation: "University of Siena, University of Turin",
+                speaker: "Laurent Fintoni, Silvia Calamai, Daniela Mereu",
+                affiliation: "University of Bologna, University of Siena, University of Turin",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Closing Remarks" },
             ],
@@ -394,7 +394,7 @@ export const seminarData = {
           },
           {
             sessionTitle: "SESSION I: PROGETTI SUI DATI ORALI A BOLOGNA",
-            chair: "",
+            chair: "Session Chair: Laurent Fintoni",
             events: [
               {
                 time: "10:30 - 10:50",
@@ -434,7 +434,7 @@ export const seminarData = {
           {
             sessionTitle:
               "SESSION II: LE DH AL CROCEVIA DEI DATI ORALI",
-            chair: "",
+            chair: "Session Chair: Costanza Paolillo",
             events: [
               {
                 time: "14:00 - 14:20",
@@ -492,7 +492,7 @@ export const seminarData = {
         sessions: [
           {
             sessionTitle: "SESSION IV: TAVOLE ROTONDE INTERDISCIPLINARI",
-            chair: "",
+            chair: "Session Chair: Silvia Ballarè, Nike del Quercio",
             events: [
               {
                 time: "09:00 - 10:30",
@@ -508,7 +508,7 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiviare, trattare e condividere i dati orali: un dialogo interdisciplinare",
-                speaker: "Silvia Calamai, Jacopo Lorenzini, Toni Rovatti, Daniela Mereu",
+                speaker: "Laurent Fintoni, Silvia Calamai, Daniela Mereu",
                 affiliation: "Università di Bologna, Università di Siena, Università di Torino",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Saluti Finali" },
