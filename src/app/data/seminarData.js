@@ -240,8 +240,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Legal and Ethical Issues in the Management of Oral Data",
-                speaker: "Marco Dettori, Francesca Masini, Eugenio Goria, Lottie Provost",
-                affiliation: "University of Bologna, University of Turin, ILC-CNR",
+                speaker: "Marco Dettori, Eugenio Goria, Francesca Masini, Lottie Provost",
+                affiliation: "University of Bologna, University of Turin, University of Bologna, ILC-CNR",
               },
               { time: "10:30 - 11:00", type: "break", title: "Coffee Break" },
               {
@@ -249,8 +249,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiving, Handling, and Sharing Oral Data: Interdisciplinary Perspectives",
-                speaker: "Laurent Fintoni, Silvia Calamai, Daniela Mereu",
-                affiliation: "University of Bologna, University of Siena, University of Turin",
+                speaker: "Silvia Calamai, Laurent Fintoni, Daniela Mereu",
+                affiliation: "University of Siena, University of Bologna, University of Turin",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Closing Remarks" },
             ],
@@ -499,8 +499,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Problemi etici e legali nel trattamento dei dati orali",
-                speaker: "Marco Dettori, Francesca Masini, Eugenio Goria, Lottie Provost",
-                affiliation: "Università di Bologna, Università di Torino, ILC-CNR",
+                speaker: "Marco Dettori, Eugenio Goria, Francesca Masini, Lottie Provost",
+                affiliation: "Università di Bologna, Università di Torino, Università di Bologna, ILC-CNR",
               },
               { time: "10:30 - 11:00", type: "break", title: "Coffee Break" },
               {
@@ -508,8 +508,8 @@ export const seminarData = {
                 type: "roundtable",
                 title:
                   "Archiviare, trattare e condividere i dati orali: un dialogo interdisciplinare",
-                speaker: "Laurent Fintoni, Silvia Calamai, Daniela Mereu",
-                affiliation: "Università di Bologna, Università di Siena, Università di Torino",
+                speaker: "Silvia Calamai, Laurent Fintoni, Daniela Mereu",
+                affiliation: "Università di Siena, Università di Bologna, Università di Torino",
               },
               { time: "12:30 - 13:00", type: "conclusion", title: "Saluti Finali" },
             ],
